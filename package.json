@@ -1,0 +1,32 @@
+{
+  "name": "dockplate",
+  "version": "0.0.1",
+  "description": "Docker boilerplate files generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirluky/dockplate.git"
+  },
+  "keywords": [
+    "docker",
+    "boilerplate",
+    "generator",
+    "nodejs",
+    "dockerfile",
+    "docker-compose"
+  ],
+  "author": "Lukáš Kovář",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sirluky/dockplate/issues"
+  },
+  "homepage": "https://github.com/sirluky/dockplate#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.1.0"
+  }
+}

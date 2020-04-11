@@ -1,5 +1,7 @@
-# DockerPlate
+# WORK IN PROGRESS 🚧
 
+# DockerPlate
+- Easily generate Dockerfiles and Docker-Compose for your project
 ## FAQ
 ### Why are you making this tool ?, I can easily google dockerfile or write yourself
 - You are right, you can google it, but it takes some time for you and not all dockerfiles you find on the internet are the most effective.

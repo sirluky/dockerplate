@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const inquirer = require("inquirer")
 const chalk = require("chalk")
 const fs = require("fs")
@@ -94,10 +96,10 @@ const ejs = require("ejs");
 
 
           console.log("Production version will be build automatically in your selected CI, or you can run")
-          console.log(`${chalk.blueBright("docker build node-prod:" + docker_image_version + " prod.Dockerfile")}`)
+          console.log(`${chalk.blueBright("docker build -t node-prod:" + docker_image_version + " . -f prod.Dockerfile")}`)
           console.log("")
           console.log("Build your image with this command:")
-          console.log(`${chalk.blueBright("docker build node-dev:" + docker_image_version + " dev.Dockerfile")}`)
+          console.log(`${chalk.blueBright("docker build -t node-dev:" + docker_image_version + " . -f dev.Dockerfile")}`)
   
           let dockerComposeExists = true
           console.log(`${chalk.gray("Docker-Compose file was automatically " + (dockerComposeExists ? "updated":"generated") )}`)

@@ -26,6 +26,7 @@
   "homepage": "https://github.com/sirluky/dockplate#readme",
   "dependencies": {
     "chalk": "^4.0.0",
+    "ejs": "^3.0.2",
     "fs": "0.0.1-security",
     "inquirer": "^7.1.0"
   },

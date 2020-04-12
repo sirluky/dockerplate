@@ -1,0 +1,14 @@
+
+FROM node:<%= version %>
+
+ADD package.json package-lock.json /app/
+
+WORKDIR /app
+
+RUN npm install
+
+COPY ./ /app
+
+
+
+CMD ["npm","start"]

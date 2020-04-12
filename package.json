@@ -1,6 +1,6 @@
 {
-  "name": "dockplate",
-  "version": "0.0.1",
+  "name": "dockerplate",
+  "version": "0.1.1",
   "description": "Docker boilerplate files generator",
   "main": "index.js",
   "bin": {

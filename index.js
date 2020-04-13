@@ -25,7 +25,9 @@ const ejs = require("ejs");
 
   switch (language.language) {
   case "Node.js":
+    // eslint-disable-next-line no-case-declarations
     const Stable = "12.16.2"
+    // eslint-disable-next-line no-case-declarations
     const Latest = "13.12.0" 
 
     inquirer

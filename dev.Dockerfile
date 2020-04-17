@@ -1,5 +1,5 @@
 
-FROM node:alpine-13.12.0
+FROM node:12.16.2
 
 ADD package.json package-lock.json /app/
 
